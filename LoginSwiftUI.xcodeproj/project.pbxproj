@@ -13,6 +13,7 @@
 		4D0C8EA1241F7957002924C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C8EA0241F7957002924C2 /* Assets.xcassets */; };
 		4D0C8EA4241F7957002924C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C8EA3241F7957002924C2 /* Preview Assets.xcassets */; };
 		4D0C8EA7241F7957002924C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C8EA5241F7957002924C2 /* LaunchScreen.storyboard */; };
+		4D0C92F8241F8E53002924C2 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0C92F7241F8E53002924C2 /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4D0C8EA3241F7957002924C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D0C8EA6241F7957002924C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D0C8EA8241F7957002924C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D0C92F7241F8E53002924C2 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				4D0C8E9A241F7956002924C2 /* AppDelegate.swift */,
+				4D0C92F7241F8E53002924C2 /* LoginViewModel.swift */,
 				4D0C8E9C241F7956002924C2 /* SceneDelegate.swift */,
 				4D0C8E9E241F7956002924C2 /* ContentView.swift */,
 				4D0C8EA0241F7957002924C2 /* Assets.xcassets */,
@@ -148,6 +151,7 @@
 			files = (
 				4D0C8E9B241F7956002924C2 /* AppDelegate.swift in Sources */,
 				4D0C8E9D241F7956002924C2 /* SceneDelegate.swift in Sources */,
+				4D0C92F8241F8E53002924C2 /* LoginViewModel.swift in Sources */,
 				4D0C8E9F241F7956002924C2 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
